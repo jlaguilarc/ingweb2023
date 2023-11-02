@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio</title>
+</head>
+<body>
+    <form method="POST" action="Controller/procesar.php">
+
+        <label>Documento: </label><br>
+        <input type="number" name="txtDocumento" required><br>
+
+        <label>Nombre: </label><br>
+        <input type="text" name="txtNombre" placeholder="Pepito Perez" required><br>
+
+        <label>Correo: </label><br>
+        <input type="email" name="txtCorreo" placeholder="correo@algo.com" required><br>
+
+        <label>Genero:</label><br>
+        <input type="radio" name="rdGenero" value="M">Masculino
+        <input type="radio" name="rdGenero" value="F">Femenino
+        <input type="radio" name="rdGenero" value="O">Otro<br>
+
+        <label>Lenguajes que domina: </label><br>
+        <input type="checkbox" name="ckPhp" value="php">PHP
+        <input type="checkbox" name="ckJava" value="java">Java
+        <input type="checkbox" name="ckPython" value="python">Python
+        <input type="checkbox" name="ckGo" value="go">Go<br>
+
+        <input type="reset" name="btnReset" value="Cancelar">
+        <input type="submit" name="btnEnviar" value="Enviar">
+    </form>
+    <a href="index.html" target="_blank" >Nuevo index</a>
+</body>
+</html>
