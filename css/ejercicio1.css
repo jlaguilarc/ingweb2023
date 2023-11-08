@@ -1,0 +1,25 @@
+h1 {
+    color: red;
+}
+
+h2 {
+    color: brown;
+}
+
+li span {
+    color: #0E9216;
+}
+
+body {
+    background-color: #86F99B;
+    color: blue;
+}
+
+p strong {
+    font-size: 30px;
+}
+
+em {
+    background-color: black;
+    color: white;
+}
