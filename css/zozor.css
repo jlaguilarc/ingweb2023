@@ -1,0 +1,35 @@
+body {
+    background: url('../images/yellow_background.png');
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+#main_wrapper {
+    width: 900px;
+    margin: auto;
+}
+
+/** Encabezado **/
+header{
+    background: url('../images/line.png') repeat-x bottom;
+}
+
+#main_title {
+    display: inline-block;
+}
+
+header h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+#logo, header h1 {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+header h2 {
+    margin-top: 0px;
+    font-size: 18px;
+}
