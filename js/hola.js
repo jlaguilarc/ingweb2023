@@ -26,10 +26,17 @@ let par = [];
 
 for(let i=0;i<numerosPrimos.length;i++){
     if(numerosPrimos[i]%2==0){
-        par.push(i);
+        par.push(numerosPrimos[i]);
     }else{
-        impar.push(i);
+        impar.push(numerosPrimos[i]);
     }
 }
-console.log(impar);
-console.log(par);
+
+let listar = document.getElementById("listar");
+
+par.forEach((elemento) =>{
+    listar.innerHTML += `<li>${elemento}</li>`
+});
+
+console.log("Arreglo numeros impares "+impar);
+console.log("Arreglo numeros pares "+par);
